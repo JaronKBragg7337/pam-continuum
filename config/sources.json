@@ -19,7 +19,8 @@
     "transport": "Claude desktop app or browser",
     "surface": "Claude",
     "session_policy": "fresh-conversation",
-    "api_policy": "prohibited"
+    "api_policy": "prohibited",
+    "session_state": "computer-observed-signed-in"
   },
   {
     "id": "gemini",
@@ -30,7 +31,8 @@
     "transport": "browser-session",
     "surface": "Gemini website",
     "session_policy": "fresh-conversation",
-    "api_policy": "prohibited"
+    "api_policy": "prohibited",
+    "session_state": "user-reported-signed-in"
   },
   {
     "id": "perplexity",
@@ -41,7 +43,8 @@
     "transport": "Comet browser",
     "surface": "Perplexity through Comet",
     "session_policy": "fresh-conversation",
-    "api_policy": "prohibited"
+    "api_policy": "prohibited",
+    "session_state": "computer-observed-signed-in"
   },
   {
     "id": "grok",
@@ -52,7 +55,8 @@
     "transport": "browser-session",
     "surface": "Grok website",
     "session_policy": "fresh-conversation",
-    "api_policy": "prohibited"
+    "api_policy": "prohibited",
+    "session_state": "user-reported-signed-in"
   },
   {
     "id": "deepseek",

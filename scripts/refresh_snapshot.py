@@ -39,10 +39,19 @@ def main() -> None:
     source_snapshot = []
     for source in source_config:
         ready = source["id"] in {item["id"] for item in live_sources}
+        session_state = source.get("session_state")
         if ready:
             status = "connected"
             freshness = "awaiting-capture"
             note = "Connector is marked ready; source-specific capture must be verified before synthesis."
+        elif session_state == "computer-observed-signed-in":
+            status = "ui-ready"
+            freshness = "session-observed"
+            note = "Signed-in browser or desktop session observed; no capture has run yet."
+        elif session_state == "user-reported-signed-in":
+            status = "session-reported"
+            freshness = "session-reported"
+            note = "User reports a signed-in browser session; verify at capture time."
         elif source["status"] == "ready":
             status = "available"
             freshness = "available"
@@ -112,4 +121,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

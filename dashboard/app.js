@@ -119,7 +119,7 @@ function renderActivity(activity) {
 
 function renderSources(sources) {
   const host = document.querySelector("#sources");
-  const ready = sources.filter((source) => ["connected", "available", "ready"].includes(source.status)).length;
+  const ready = sources.filter((source) => ["connected", "available", "ready", "ui-ready", "session-reported"].includes(source.status)).length;
   document.querySelector("#source-count").textContent = `${ready} / ${sources.length} READY`;
   host.innerHTML = sources.map((source) => `
     <div class="source-item">
@@ -166,4 +166,3 @@ async function init() {
 }
 
 init();
-

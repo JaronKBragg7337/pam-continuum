@@ -6,43 +6,43 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "anthropic",
     "label": "Anthropic / Claude",
     "kind": "ai",
-    "status": "not-connected",
-    "freshness": "unknown",
-    "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "status": "ui-ready",
+    "freshness": "session-observed",
+    "note": "Signed-in browser or desktop session observed; no capture has run yet.",
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "gemini",
     "label": "Google / Gemini",
     "kind": "ai",
-    "status": "not-connected",
-    "freshness": "unknown",
-    "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "status": "session-reported",
+    "freshness": "session-reported",
+    "note": "User reports a signed-in browser session; verify at capture time.",
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "perplexity",
     "label": "Perplexity",
     "kind": "ai",
-    "status": "not-connected",
-    "freshness": "unknown",
-    "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "status": "ui-ready",
+    "freshness": "session-observed",
+    "note": "Signed-in browser or desktop session observed; no capture has run yet.",
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "grok",
     "label": "xAI / Grok",
     "kind": "ai",
-    "status": "not-connected",
-    "freshness": "unknown",
-    "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "status": "session-reported",
+    "freshness": "session-reported",
+    "note": "User reports a signed-in browser session; verify at capture time.",
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "deepseek",
@@ -51,7 +51,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "kimi",
@@ -60,7 +60,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "github",
@@ -69,7 +69,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "public-web",
@@ -78,7 +78,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "workspace",
@@ -87,7 +87,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "calendar",
@@ -96,7 +96,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   },
   {
     "id": "mail",
@@ -105,6 +105,6 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-01T09:45:45Z"
+    "checked_at": "2026-08-01T13:46:23Z"
   }
 ]

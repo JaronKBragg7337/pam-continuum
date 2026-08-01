@@ -18,6 +18,8 @@ PAM Continuum uses visible browser and desktop-app sessions for AI collection. T
 
 - Claude desktop session: observed signed in and ready.
 - Comet / Perplexity session: observed signed in and ready.
+- Gemini: user-confirmed signed-in browser session; verify at capture time.
+- Grok: user-confirmed signed-in browser session; verify at capture time.
 - Kimi: not yet verified in the current Windows session.
 - DeepSeek: not yet verified in the current Windows session.
 - Other browser sources: verify on first use.

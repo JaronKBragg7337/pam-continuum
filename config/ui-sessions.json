@@ -18,6 +18,8 @@
   "surfaces": [
     {"source_id": "anthropic", "surface": "Claude desktop app or claude.ai", "observed": "signed-in desktop session"},
     {"source_id": "perplexity", "surface": "Comet browser", "observed": "signed-in browser session"},
+    {"source_id": "gemini", "surface": "Gemini website", "observed": "user-confirmed signed-in browser session"},
+    {"source_id": "grok", "surface": "Grok website", "observed": "user-confirmed signed-in browser session"},
     {"source_id": "kimi", "surface": "Kimi desktop app or website", "observed": "verify on first use"},
     {"source_id": "deepseek", "surface": "DeepSeek website", "observed": "verify on first use"}
   ],
