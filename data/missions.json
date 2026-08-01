@@ -6,7 +6,7 @@
     "priority": "critical",
     "domain": "ai-systems",
     "summary": "Connect useful sources, preserve evidence, and turn the dashboard into a truthful daily operating picture.",
-    "next_action": "Add the first authenticated source adapter and record its freshness contract.",
+    "next_action": "Run the first browser-session capture through a verified AI surface and record its freshness contract.",
     "success_conditions": [
       "At least one live source has a tested capture path",
       "Freshness distinguishes heartbeat from world refresh",

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "collection_mode": "browser-and-desktop-ui",
+  "ai_api_calls": "prohibited",
+  "account_handling": {
+    "use_existing_signed_in_sessions": true,
+    "automate_passwords_or_otp": false,
+    "verify_session_at_runtime": true,
+    "record_account_identity": false
+  },
+  "capture_policy": {
+    "fresh_conversation": true,
+    "wait_for_generation_to_finish": true,
+    "preserve_visible_response_verbatim": true,
+    "record_refusal_or_unavailability": true,
+    "send_private_workspace_content_without_explicit_scope": false
+  },
+  "surfaces": [
+    {"source_id": "anthropic", "surface": "Claude desktop app or claude.ai", "observed": "signed-in desktop session"},
+    {"source_id": "perplexity", "surface": "Comet browser", "observed": "signed-in browser session"},
+    {"source_id": "kimi", "surface": "Kimi desktop app or website", "observed": "verify on first use"},
+    {"source_id": "deepseek", "surface": "DeepSeek website", "observed": "verify on first use"}
+  ],
+  "operator_rule": "Use the computer and visible UI for AI collection; never silently substitute an API call."
+}

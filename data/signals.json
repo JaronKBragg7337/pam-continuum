@@ -40,5 +40,19 @@
     "domain": "personal-context",
     "source_count": 0,
     "last_seen": "2026-08-01"
+  },
+  {
+    "id": "PAM-BOOTSTRAP-004",
+    "type": "system",
+    "title": "AI collection is browser-first",
+    "claim": "PAM Continuum routes AI collection through visible browser or desktop-app sessions and does not use AI APIs for collection.",
+    "status": "active",
+    "confidence": "Verified",
+    "basis": ["config:ui-sessions.json", "docs:ui-collection.md", "operator-instruction:2026-08-01"],
+    "falsifier": "An AI collection run uses an API client or silently substitutes an API path for a visible UI session.",
+    "horizon": "2026-08-01",
+    "domain": "ai-systems",
+    "source_count": 0,
+    "last_seen": "2026-08-01"
   }
 ]

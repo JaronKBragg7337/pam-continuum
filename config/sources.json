@@ -4,72 +4,101 @@
     "label": "OpenAI / ChatGPT",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["OPENAI_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "browser-session",
+    "surface": "ChatGPT website or desktop surface",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited"
   },
   {
     "id": "anthropic",
     "label": "Anthropic / Claude",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["ANTHROPIC_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "Claude desktop app or browser",
+    "surface": "Claude",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited"
   },
   {
     "id": "gemini",
     "label": "Google / Gemini",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["GEMINI_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "browser-session",
+    "surface": "Gemini website",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited"
   },
   {
     "id": "perplexity",
     "label": "Perplexity",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["PERPLEXITY_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "Comet browser",
+    "surface": "Perplexity through Comet",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited"
   },
   {
     "id": "grok",
     "label": "xAI / Grok",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["XAI_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "browser-session",
+    "surface": "Grok website",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited"
   },
   {
     "id": "deepseek",
     "label": "DeepSeek",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["DEEPSEEK_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "browser-session",
+    "surface": "DeepSeek website",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited",
+    "session_state": "verify-on-first-use"
   },
   {
     "id": "kimi",
     "label": "Moonshot / Kimi",
     "kind": "ai",
     "status": "planned",
-    "connector": "browser-or-api",
-    "required_env": ["KIMI_API_KEY"]
+    "connector": "browser-ui",
+    "transport": "Kimi desktop app or browser",
+    "surface": "Kimi",
+    "session_policy": "fresh-conversation",
+    "api_policy": "prohibited",
+    "session_state": "verify-on-first-use"
   },
   {
     "id": "github",
     "label": "GitHub",
     "kind": "code",
     "status": "ready",
-    "connector": "github-cli",
-    "required_env": []
+    "connector": "github-cli-or-browser",
+    "transport": "repository and browser surface",
+    "surface": "GitHub",
+    "session_policy": "mission-scoped",
+    "api_policy": "non-ai-automation-allowed"
   },
   {
     "id": "public-web",
     "label": "Public Web & Official Sources",
     "kind": "research",
     "status": "ready",
-    "connector": "web-search",
-    "required_env": []
+    "connector": "browser-research",
+    "transport": "browser-session",
+    "surface": "public web and official sources",
+    "session_policy": "mission-scoped",
+    "api_policy": "non-ai-automation-allowed"
   },
   {
     "id": "workspace",
@@ -77,23 +106,31 @@
     "kind": "local",
     "status": "ready",
     "connector": "filesystem",
-    "required_env": []
+    "transport": "local-read-only",
+    "surface": "protected workspace",
+    "session_policy": "read-only-reconnaissance",
+    "api_policy": "not-applicable"
   },
   {
     "id": "calendar",
     "label": "Calendar & Commitments",
     "kind": "operations",
     "status": "planned",
-    "connector": "connected-app",
-    "required_env": []
+    "connector": "connected-app-ui",
+    "transport": "browser-or-desktop-session",
+    "surface": "calendar application",
+    "session_policy": "mission-scoped",
+    "api_policy": "not-applicable"
   },
   {
     "id": "mail",
     "label": "Email & Inbound Signals",
     "kind": "operations",
     "status": "planned",
-    "connector": "connected-app",
-    "required_env": []
+    "connector": "connected-app-ui",
+    "transport": "browser-or-desktop-session",
+    "surface": "mail application",
+    "session_policy": "mission-scoped",
+    "api_policy": "not-applicable"
   }
 ]
-

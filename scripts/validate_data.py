@@ -21,6 +21,7 @@ REQUIRED_JSON = [
     CONFIG / "system.json",
     CONFIG / "domains.json",
     CONFIG / "sources.json",
+    CONFIG / "ui-sessions.json",
 ]
 
 SECRET_PATTERNS = [
@@ -101,4 +102,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

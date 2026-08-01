@@ -24,6 +24,10 @@ Increase the user's ability to understand, build, decide, and act by finding mea
 
 ## Core principles
 
+### UI-first AI collection
+
+AI sources are reached through the user's visible browser or desktop-app sessions. PAM Continuum does not use AI APIs for collection. Session presence is verified at runtime; passwords, OTPs, and account identities are not automated or recorded.
+
 ### Provenance over performance
 
 An impressive conclusion without a traceable basis is a hypothesis, not a fact.
@@ -60,4 +64,3 @@ Normal in-scope computer work may proceed autonomously. Destructive deletion, cr
 - **Assessment:** confidence and alternative explanations.
 - **Mission:** the highest-value next action.
 - **Verification:** how success or failure will be checked.
-

@@ -2,7 +2,7 @@
 
 **An evergreen intelligence workspace for one persistent P.A.M.-style assistant.**
 
-PAM Continuum is the new system being built for Codex: a living workspace that gathers evidence, preserves uncertainty, connects related signals, turns observations into missions, and presents the whole system through a visual command center.
+PAM Continuum is the new system being built for Codex: a living workspace that gathers evidence through browser and desktop-app sessions, preserves uncertainty, connects related signals, turns observations into missions, and presents the whole system through a visual command center.
 
 The name is deliberately new. `pam-continuum` is not a replacement for the existing Orchestra repository and does not modify it. Orchestra contributes durable principles—provenance, preserved disagreement, falsifiers, append-only history, and explicit context—while PAM Continuum adds a broader personal operating layer: missions, workspace awareness, build queues, source health, relation mapping, and a daily visual pulse.
 
@@ -17,6 +17,7 @@ Open the [PAM Continuum dashboard](https://jaronkbragg7337.github.io/pam-continu
 ## What it is designed to become
 
 - A growing source network: AI systems, public web research, code repositories, local projects, connected accounts, and future adapters.
+- Browser-first AI collection through existing signed-in sessions; AI API collection is intentionally disabled.
 - An append-only evidence archive with prompts, captures, timestamps, source identity, model/version metadata, and failure states.
 - A relation graph that makes cross-domain connections visible instead of leaving them buried in separate notes.
 - A mission engine that turns findings into buildable or solvable next actions.

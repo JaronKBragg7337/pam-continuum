@@ -16,7 +16,7 @@ sources → capture → evidence ledger → relation graph → synthesis
 
 ### 1. Source layer
 
-`config/sources.json` is the registry of possible inputs. A source can be an AI account, web surface, repository, local directory, connected application, or future adapter. Source configuration describes capability and connection state, never secrets.
+`config/sources.json` is the registry of possible inputs. A source can be an AI account reached through a browser or desktop app, a web surface, repository, local directory, connected application, or future adapter. Source configuration describes capability and connection state, never secrets. AI collection is UI-first and API calls are prohibited.
 
 ### 2. Capture layer
 
@@ -58,4 +58,3 @@ Any state may also become `stale`, `invalidated`, `blocked`, or `archived`. Stat
 ## Independence boundary
 
 Collection should remain separate from synthesis. A synthesizer may read prior artifacts, but its context declaration is recorded. The comparison layer labels independent and informed agreement separately. The system never asks a model to decide that it agrees with itself.
-
