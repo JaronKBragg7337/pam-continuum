@@ -10,6 +10,10 @@ The name is deliberately new. `pam-continuum` is not a replacement for the exist
 
 This repository starts in **bootstrap mode**. The structure, contracts, dashboard, and GitHub Pages workflows are ready. Until source accounts and connectors are added, the daily workflow records a heartbeat and clearly reports that no world data was collected. A heartbeat is not disguised as fresh intelligence.
 
+## Live command center
+
+Open the [PAM Continuum dashboard](https://jaronkbragg7337.github.io/pam-continuum/) to view the current system map, mission queue, signal watch, activity stream, and source-health state.
+
 ## What it is designed to become
 
 - A growing source network: AI systems, public web research, code repositories, local projects, connected accounts, and future adapters.
@@ -61,4 +65,3 @@ The GitHub Pages workflow publishes the `dashboard/` view from the latest commit
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
