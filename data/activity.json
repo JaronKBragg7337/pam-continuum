@@ -1,5 +1,13 @@
 [
   {
+    "id": "ACT-0004",
+    "timestamp": "2026-08-01T12:42:25Z",
+    "type": "system",
+    "title": "Protected reconnaissance completed",
+    "detail": "A read-only local metadata pass completed; project names and private findings remain outside the public repository.",
+    "status": "verified"
+  },
+  {
     "id": "PULSE-20260801094545Z",
     "timestamp": "2026-08-01T09:45:45Z",
     "type": "pulse",

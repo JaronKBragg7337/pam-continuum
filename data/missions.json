@@ -15,6 +15,22 @@
     "verification": "Run the validator, inspect the source-health panel, and trace one signal from capture to dashboard.",
     "created_at": "2026-08-01",
     "updated_at": "2026-08-01"
+  },
+  {
+    "id": "M-0002",
+    "title": "Map relationships across protected workspace",
+    "status": "collecting",
+    "priority": "high",
+    "domain": "personal-context",
+    "summary": "Identify which existing projects may connect to Continuum without publishing private project details or modifying another AI's work.",
+    "next_action": "Confirm active project clusters before opening project contents.",
+    "success_conditions": [
+      "Candidate relationships are confirmed by evidence rather than names alone",
+      "Private reconnaissance remains outside the public repository",
+      "Any imported artifact has a clear owner, source, and verification path"
+    ],
+    "verification": "Review the local-only reconnaissance report and record the first confirmed relationship as a mission-scoped artifact.",
+    "created_at": "2026-08-01",
+    "updated_at": "2026-08-01"
   }
 ]
-

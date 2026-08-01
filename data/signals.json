@@ -26,6 +26,19 @@
     "domain": "ai-systems",
     "source_count": 0,
     "last_seen": "2026-08-01"
+  },
+  {
+    "id": "PAM-BOOTSTRAP-003",
+    "type": "system",
+    "title": "Protected reconnaissance is local-only",
+    "claim": "The first workspace inventory records metadata privately and does not publish project names or alter existing work.",
+    "status": "active",
+    "confidence": "Verified",
+    "basis": ["scripts:recon_workspace.py", "gitignore:private/", "private:initial-assessment"],
+    "falsifier": "A private inventory file appears in the public repository or the reconnaissance pass modifies an existing project.",
+    "horizon": "2026-08-01",
+    "domain": "personal-context",
+    "source_count": 0,
+    "last_seen": "2026-08-01"
   }
 ]
-

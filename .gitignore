@@ -5,6 +5,6 @@ __pycache__/
 .env.*
 !.env.example
 site/
+private/
 .DS_Store
 Thumbs.db
-
