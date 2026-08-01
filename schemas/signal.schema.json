@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PAM Continuum Signal",
+  "type": "object",
+  "required": ["id", "title", "claim", "status", "confidence", "basis", "falsifier", "horizon"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "claim": {"type": "string"},
+    "status": {"type": "string"},
+    "confidence": {"type": "string"},
+    "basis": {"type": "array", "items": {"type": "string"}},
+    "falsifier": {"type": "string"},
+    "horizon": {"type": "string"}
+  }
+}
+

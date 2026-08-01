@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ai-systems",
+    "label": "AI Systems",
+    "color": "cyan",
+    "description": "Models, agents, tools, memory, and emerging capabilities"
+  },
+  {
+    "id": "software-build",
+    "label": "Software & Build",
+    "color": "violet",
+    "description": "Projects, code, infrastructure, automation, and technical debt"
+  },
+  {
+    "id": "research",
+    "label": "Research",
+    "color": "amber",
+    "description": "Papers, primary sources, experiments, and unresolved questions"
+  },
+  {
+    "id": "world-systems",
+    "label": "World Systems",
+    "color": "coral",
+    "description": "Geopolitics, economics, energy, supply chains, and social change"
+  },
+  {
+    "id": "creative-assets",
+    "label": "Creative Assets",
+    "color": "pink",
+    "description": "Visuals, games, worlds, stories, and product experiences"
+  },
+  {
+    "id": "operations",
+    "label": "Operations",
+    "color": "green",
+    "description": "Commitments, communications, accounts, and practical follow-through"
+  },
+  {
+    "id": "personal-context",
+    "label": "Personal Context",
+    "color": "blue",
+    "description": "User priorities, constraints, preferences, and protected work"
+  }
+]
+

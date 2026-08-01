@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "name": "PAM Continuum",
+  "codename": "continuum",
+  "designation": "Predictive Analytical Machine-inspired intelligence workspace",
+  "mode": "bootstrap",
+  "mission": "Gather evidence, connect meaningful relationships, and turn understanding into verified progress.",
+  "dashboard": "dashboard/index.html",
+  "data_contract": "schemas/README.md",
+  "created_on": "2026-08-01",
+  "refresh_policy": "daily heartbeat; live collection only when a connector is explicitly configured"
+}
+

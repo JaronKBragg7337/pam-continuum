@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07111f" />
+    <meta name="description" content="PAM Continuum evergreen intelligence command center" />
+    <title>PAM Continuum — Command Center</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href=".">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>
+            <span class="eyebrow">PREDICTIVE ANALYTICAL MACHINE</span>
+            <span class="brand-name">PAM <i>Continuum</i></span>
+          </span>
+        </a>
+        <div class="topbar-status">
+          <span class="pulse-dot"></span>
+          <span id="top-status">BOOTSTRAP STANDBY</span>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow accent">EVERGREEN INTELLIGENCE WORKSPACE</p>
+          <h1>See the signal.<br /><span>Trace the connection.</span></h1>
+          <p class="hero-copy">A living command center for evidence, relationships, missions, and verified progress. Freshness is visible. Uncertainty is preserved.</p>
+        </div>
+        <div class="hero-console">
+          <div class="console-label">SYSTEM DIRECTIVE</div>
+          <div id="directive" class="console-value">Establishing baseline…</div>
+          <div class="console-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="console-footer"><span>NO CREDENTIALS IN REPOSITORY</span><span id="hero-date">—</span></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="System metrics">
+        <article class="metric-card metric-highlight">
+          <div class="metric-label">WORLD FRESHNESS</div>
+          <div id="metric-freshness" class="metric-value text-value">NOT CONFIGURED</div>
+          <div id="metric-freshness-note" class="metric-note">Heartbeat is not a world refresh.</div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label">ACTIVE MISSIONS</div>
+          <div id="metric-missions" class="metric-value">—</div>
+          <div class="metric-note">Buildable next actions</div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label">OPEN SIGNALS</div>
+          <div id="metric-signals" class="metric-value">—</div>
+          <div class="metric-note">Claims still in motion</div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label">RELATION EDGES</div>
+          <div id="metric-connections" class="metric-value">—</div>
+          <div class="metric-note">Explicit, inspectable links</div>
+        </article>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="panel map-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">SYSTEM MAP</p>
+              <h2>How the pieces move</h2>
+            </div>
+            <span class="panel-chip">LIVE GRAPH</span>
+          </div>
+          <div class="map-wrap">
+            <svg id="system-map" viewBox="0 0 900 520" role="img" aria-label="PAM Continuum system relationship map"></svg>
+          </div>
+          <div class="legend" id="map-legend"></div>
+        </article>
+
+        <article class="panel mission-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">MISSION QUEUE</p>
+              <h2>What moves next</h2>
+            </div>
+            <span class="panel-icon">↗</span>
+          </div>
+          <div id="missions" class="stack-list"></div>
+        </article>
+
+        <article class="panel signal-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">SIGNAL WATCH</p>
+              <h2>Claims in motion</h2>
+            </div>
+            <span class="panel-chip muted">FALSIFIABLE</span>
+          </div>
+          <div id="signals" class="signal-list"></div>
+        </article>
+
+        <article class="panel activity-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">ACTIVITY STREAM</p>
+              <h2>What just happened</h2>
+            </div>
+            <span class="panel-icon">◌</span>
+          </div>
+          <div id="activity" class="activity-list"></div>
+        </article>
+
+        <article class="panel sources-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">SOURCE HEALTH</p>
+              <h2>Coverage, not theater</h2>
+            </div>
+            <span id="source-count" class="panel-chip">0 / 0 READY</span>
+          </div>
+          <div id="sources" class="source-list"></div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <span><strong>PAM CONTINUUM</strong> · evidence before narrative</span>
+        <span id="footer-freshness">Data status: loading</span>
+      </footer>
+    </main>
+    <script src="app.js" defer></script>
+  </body>
+</html>
+

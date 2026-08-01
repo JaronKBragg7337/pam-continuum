@@ -1,0 +1,99 @@
+[
+  {
+    "id": "openai",
+    "label": "OpenAI / ChatGPT",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["OPENAI_API_KEY"]
+  },
+  {
+    "id": "anthropic",
+    "label": "Anthropic / Claude",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["ANTHROPIC_API_KEY"]
+  },
+  {
+    "id": "gemini",
+    "label": "Google / Gemini",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["GEMINI_API_KEY"]
+  },
+  {
+    "id": "perplexity",
+    "label": "Perplexity",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["PERPLEXITY_API_KEY"]
+  },
+  {
+    "id": "grok",
+    "label": "xAI / Grok",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["XAI_API_KEY"]
+  },
+  {
+    "id": "deepseek",
+    "label": "DeepSeek",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["DEEPSEEK_API_KEY"]
+  },
+  {
+    "id": "kimi",
+    "label": "Moonshot / Kimi",
+    "kind": "ai",
+    "status": "planned",
+    "connector": "browser-or-api",
+    "required_env": ["KIMI_API_KEY"]
+  },
+  {
+    "id": "github",
+    "label": "GitHub",
+    "kind": "code",
+    "status": "ready",
+    "connector": "github-cli",
+    "required_env": []
+  },
+  {
+    "id": "public-web",
+    "label": "Public Web & Official Sources",
+    "kind": "research",
+    "status": "ready",
+    "connector": "web-search",
+    "required_env": []
+  },
+  {
+    "id": "workspace",
+    "label": "Local Workspace",
+    "kind": "local",
+    "status": "ready",
+    "connector": "filesystem",
+    "required_env": []
+  },
+  {
+    "id": "calendar",
+    "label": "Calendar & Commitments",
+    "kind": "operations",
+    "status": "planned",
+    "connector": "connected-app",
+    "required_env": []
+  },
+  {
+    "id": "mail",
+    "label": "Email & Inbound Signals",
+    "kind": "operations",
+    "status": "planned",
+    "connector": "connected-app",
+    "required_env": []
+  }
+]
+

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PULSE-20260801094325Z",
+    "timestamp": "2026-08-01T09:43:25Z",
+    "type": "pulse",
+    "title": "Daily pulse recorded",
+    "detail": "Scheduler is healthy; no world data was collected.",
+    "status": "verified"
+  },
+  {
+    "id": "ACT-0003",
+    "timestamp": "2026-08-01T00:00:00Z",
+    "type": "system",
+    "title": "Bootstrap state declared",
+    "detail": "The dashboard distinguishes scheduler heartbeat from live world refresh.",
+    "status": "verified"
+  },
+  {
+    "id": "ACT-0002",
+    "timestamp": "2026-08-01T00:00:00Z",
+    "type": "architecture",
+    "title": "Orchestra principles imported",
+    "detail": "Provenance, preserved dissent, falsifiers, and append-only history are now part of the Continuum charter.",
+    "status": "verified"
+  },
+  {
+    "id": "ACT-0001",
+    "timestamp": "2026-08-01T00:00:00Z",
+    "type": "system",
+    "title": "PAM Continuum initialized",
+    "detail": "New repository scaffold created for an evergreen P.A.M.-style assistant.",
+    "status": "verified"
+  }
+]

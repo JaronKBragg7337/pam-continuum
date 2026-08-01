@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PAM Continuum State",
+  "type": "object",
+  "required": ["schema_version", "system", "mode", "runtime", "metrics", "protection"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "system": {"type": "string"},
+    "mode": {"type": "string"},
+    "runtime": {"type": "object"},
+    "metrics": {"type": "object"},
+    "protection": {"type": "object"}
+  }
+}
+

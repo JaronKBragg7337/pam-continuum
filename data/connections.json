@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-01",
+  "nodes": [
+    {"id": "sources", "label": "Sources", "category": "capture", "x": 120, "y": 120, "health": "planned", "description": "AI accounts, public web, code, workspace, and connected apps"},
+    {"id": "evidence", "label": "Evidence Ledger", "category": "capture", "x": 300, "y": 210, "health": "ready", "description": "Timestamped, attributable captures and failure states"},
+    {"id": "relations", "label": "Relation Graph", "category": "analysis", "x": 500, "y": 120, "health": "ready", "description": "Explicit links, mechanisms, and confidence"},
+    {"id": "synthesis", "label": "Synthesis", "category": "analysis", "x": 690, "y": 210, "health": "staged", "description": "Cross-source readings with disagreement preserved"},
+    {"id": "missions", "label": "Mission Queue", "category": "action", "x": 760, "y": 390, "health": "active", "description": "Buildable and solvable next actions"},
+    {"id": "workspace", "label": "Computer / Workspace", "category": "action", "x": 500, "y": 430, "health": "protected", "description": "Execution surface with existing work preserved"},
+    {"id": "memory", "label": "Append-only Memory", "category": "memory", "x": 300, "y": 390, "health": "ready", "description": "Signals, events, artifacts, and verified outcomes"},
+    {"id": "dashboard", "label": "Command Center", "category": "experience", "x": 120, "y": 390, "health": "ready", "description": "Visual daily pulse published through GitHub Pages"}
+  ],
+  "edges": [
+    {"from": "sources", "to": "evidence", "label": "capture", "confidence": "high"},
+    {"from": "evidence", "to": "relations", "label": "link", "confidence": "medium"},
+    {"from": "evidence", "to": "synthesis", "label": "basis", "confidence": "high"},
+    {"from": "relations", "to": "synthesis", "label": "connect", "confidence": "medium"},
+    {"from": "synthesis", "to": "missions", "label": "prioritize", "confidence": "medium"},
+    {"from": "missions", "to": "workspace", "label": "execute", "confidence": "high"},
+    {"from": "workspace", "to": "memory", "label": "verify", "confidence": "high"},
+    {"from": "memory", "to": "dashboard", "label": "publish", "confidence": "high"},
+    {"from": "dashboard", "to": "missions", "label": "orient", "confidence": "medium"},
+    {"from": "memory", "to": "relations", "label": "resurface", "confidence": "medium"},
+    {"from": "sources", "to": "dashboard", "label": "health", "confidence": "high"}
+  ]
+}
+

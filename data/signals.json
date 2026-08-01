@@ -1,0 +1,31 @@
+[
+  {
+    "id": "PAM-BOOTSTRAP-001",
+    "type": "system",
+    "title": "Continuum architecture is staged",
+    "claim": "The repository contains a versioned charter, data contracts, dashboard, and scheduled pulse path.",
+    "status": "active",
+    "confidence": "Verified",
+    "basis": ["repository:init", "dashboard:source", "workflow:source"],
+    "falsifier": "A validation run or deployment check shows that one of the declared components is absent or unusable.",
+    "horizon": "2026-08-01",
+    "domain": "software-build",
+    "source_count": 0,
+    "last_seen": "2026-08-01"
+  },
+  {
+    "id": "PAM-BOOTSTRAP-002",
+    "type": "system",
+    "title": "Heartbeat and world refresh are separate states",
+    "claim": "The daily workflow can report scheduler health without claiming that live world evidence was collected.",
+    "status": "active",
+    "confidence": "Verified",
+    "basis": ["scripts:refresh_snapshot.py", "data:heartbeat.json", "dashboard:freshness-panel"],
+    "falsifier": "The dashboard labels a heartbeat-only run as fresh world intelligence.",
+    "horizon": "2026-08-01",
+    "domain": "ai-systems",
+    "source_count": 0,
+    "last_seen": "2026-08-01"
+  }
+]
+

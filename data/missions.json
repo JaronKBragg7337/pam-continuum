@@ -1,0 +1,20 @@
+[
+  {
+    "id": "M-0001",
+    "title": "Bring Continuum online without losing provenance",
+    "status": "active",
+    "priority": "critical",
+    "domain": "ai-systems",
+    "summary": "Connect useful sources, preserve evidence, and turn the dashboard into a truthful daily operating picture.",
+    "next_action": "Add the first authenticated source adapter and record its freshness contract.",
+    "success_conditions": [
+      "At least one live source has a tested capture path",
+      "Freshness distinguishes heartbeat from world refresh",
+      "Every derived signal links to evidence or is explicitly marked as a system observation"
+    ],
+    "verification": "Run the validator, inspect the source-health panel, and trace one signal from capture to dashboard.",
+    "created_at": "2026-08-01",
+    "updated_at": "2026-08-01"
+  }
+]
+

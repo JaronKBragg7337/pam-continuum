@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-01T09:43:25Z",
+  "system": "PAM Continuum",
+  "mode": "heartbeat-only",
+  "runtime": {
+    "status": "healthy",
+    "heartbeat_status": "healthy",
+    "world_refresh_status": "not-collected",
+    "last_heartbeat": "2026-08-01T09:43:25Z",
+    "last_world_refresh": null,
+    "live_sources_connected": 0,
+    "source_slots": 12,
+    "connector_health": "not-configured"
+  },
+  "metrics": {
+    "active_missions": 1,
+    "open_signals": 2,
+    "connections": 12,
+    "verified_artifacts": 0,
+    "heartbeat_runs": 1
+  },
+  "protection": {
+    "existing_workspace_projects": "protected",
+    "existing_pam_installation": "out_of_scope",
+    "deletion_policy": "disabled_by_default",
+    "credential_policy": "never_commit"
+  }
+}

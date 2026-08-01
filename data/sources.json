@@ -1,0 +1,110 @@
+[
+  {
+    "id": "openai",
+    "label": "OpenAI / ChatGPT",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "anthropic",
+    "label": "Anthropic / Claude",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "gemini",
+    "label": "Google / Gemini",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "perplexity",
+    "label": "Perplexity",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "grok",
+    "label": "xAI / Grok",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "deepseek",
+    "label": "DeepSeek",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "kimi",
+    "label": "Moonshot / Kimi",
+    "kind": "ai",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "github",
+    "label": "GitHub",
+    "kind": "code",
+    "status": "available",
+    "freshness": "available",
+    "note": "Surface is available for a mission-scoped read.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "public-web",
+    "label": "Public Web & Official Sources",
+    "kind": "research",
+    "status": "available",
+    "freshness": "available",
+    "note": "Surface is available for a mission-scoped read.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "workspace",
+    "label": "Local Workspace",
+    "kind": "local",
+    "status": "available",
+    "freshness": "available",
+    "note": "Surface is available for a mission-scoped read.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "calendar",
+    "label": "Calendar & Commitments",
+    "kind": "operations",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  },
+  {
+    "id": "mail",
+    "label": "Email & Inbound Signals",
+    "kind": "operations",
+    "status": "not-connected",
+    "freshness": "unknown",
+    "note": "Awaiting account, credential, or connector setup.",
+    "checked_at": "2026-08-01T09:43:25Z"
+  }
+]
