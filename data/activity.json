@@ -1,5 +1,21 @@
 [
   {
+    "id": "PULSE-20260801142502Z",
+    "timestamp": "2026-08-01T14:25:02Z",
+    "type": "pulse",
+    "title": "Daily pulse recorded",
+    "detail": "Scheduler is healthy; no world data was collected.",
+    "status": "verified"
+  },
+  {
+    "id": "ACT-0006",
+    "timestamp": "2026-08-01T14:24:53Z",
+    "type": "source",
+    "title": "Kimi session verified, quota-limited",
+    "detail": "Kimi desktop Chat surface loaded in a signed-in session; no prompt was submitted because the monthly quota is exhausted until 08-02.",
+    "status": "verified"
+  },
+  {
     "id": "PULSE-20260801134623Z",
     "timestamp": "2026-08-01T13:46:23Z",
     "type": "pulse",

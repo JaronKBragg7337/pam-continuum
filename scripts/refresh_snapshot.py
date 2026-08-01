@@ -40,10 +40,15 @@ def main() -> None:
     for source in source_config:
         ready = source["id"] in {item["id"] for item in live_sources}
         session_state = source.get("session_state")
+        availability = source.get("availability")
         if ready:
             status = "connected"
             freshness = "awaiting-capture"
             note = "Connector is marked ready; source-specific capture must be verified before synthesis."
+        elif availability == "quota-exhausted-until-2026-08-02":
+            status = "ui-limited"
+            freshness = "quota-exhausted"
+            note = "Signed-in session observed; source quota is exhausted until 2026-08-02."
         elif session_state == "computer-observed-signed-in":
             status = "ui-ready"
             freshness = "session-observed"

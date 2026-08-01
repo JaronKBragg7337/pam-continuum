@@ -80,7 +80,8 @@
     "surface": "Kimi",
     "session_policy": "fresh-conversation",
     "api_policy": "prohibited",
-    "session_state": "verify-on-first-use"
+    "session_state": "computer-observed-signed-in",
+    "availability": "quota-exhausted-until-2026-08-02"
   },
   {
     "id": "github",

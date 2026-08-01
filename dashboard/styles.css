@@ -152,6 +152,7 @@ h3 { margin-bottom: 7px; font-size: 0.88rem; letter-spacing: -0.015em; }
 .source-status.ready, .source-status.available { background: var(--green); color: var(--green); box-shadow: 0 0 9px currentColor; }
 .source-status.ui-ready { background: var(--cyan); color: var(--cyan); box-shadow: 0 0 9px currentColor; }
 .source-status.session-reported { background: var(--amber); color: var(--amber); box-shadow: 0 0 9px currentColor; }
+.source-status.ui-limited { background: var(--coral); color: var(--coral); box-shadow: 0 0 9px currentColor; }
 .source-status.not-connected, .source-status.planned { background: var(--quiet); }
 .source-main { display: flex; flex: 1 1 auto; flex-direction: column; min-width: 0; gap: 3px; }
 .source-main strong { overflow: hidden; color: var(--text); font-size: 0.72rem; text-overflow: ellipsis; white-space: nowrap; }
