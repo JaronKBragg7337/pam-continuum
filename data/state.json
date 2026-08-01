@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-01T09:44:38Z",
+  "generated_at": "2026-08-01T09:45:45Z",
   "system": "PAM Continuum",
   "mode": "heartbeat-only",
   "runtime": {
     "status": "healthy",
     "heartbeat_status": "healthy",
     "world_refresh_status": "not-collected",
-    "last_heartbeat": "2026-08-01T09:44:38Z",
+    "last_heartbeat": "2026-08-01T09:45:45Z",
     "last_world_refresh": null,
     "live_sources_connected": 0,
     "source_slots": 12,
@@ -18,7 +18,7 @@
     "open_signals": 2,
     "connections": 12,
     "verified_artifacts": 0,
-    "heartbeat_runs": 2
+    "heartbeat_runs": 3
   },
   "protection": {
     "existing_workspace_projects": "protected",
