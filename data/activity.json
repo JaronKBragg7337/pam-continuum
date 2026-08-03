@@ -1,5 +1,13 @@
 [
   {
+    "id": "PULSE-20260803155111Z",
+    "timestamp": "2026-08-03T15:51:11Z",
+    "type": "pulse",
+    "title": "Daily pulse recorded",
+    "detail": "Scheduler is healthy; no world data was collected.",
+    "status": "verified"
+  },
+  {
     "id": "PULSE-20260802144252Z",
     "timestamp": "2026-08-02T14:42:52Z",
     "type": "pulse",
