@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T14:30:58Z",
+  "generated_at": "2026-08-12T14:31:32Z",
   "system": "PAM Continuum",
   "mode": "heartbeat-only",
   "runtime": {
     "status": "healthy",
     "heartbeat_status": "healthy",
     "world_refresh_status": "not-collected",
-    "last_heartbeat": "2026-08-11T14:30:58Z",
+    "last_heartbeat": "2026-08-12T14:31:32Z",
     "last_world_refresh": null,
     "last_reconnaissance": "2026-08-01T12:42:25Z",
     "workspace_reconnaissance": "completed_local_only",
@@ -20,7 +20,7 @@
     "open_signals": 4,
     "connections": 12,
     "verified_artifacts": 0,
-    "heartbeat_runs": 16
+    "heartbeat_runs": 17
   },
   "protection": {
     "existing_workspace_projects": "protected",
