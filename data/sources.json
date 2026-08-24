@@ -6,7 +6,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "anthropic",
@@ -15,7 +15,7 @@
     "status": "ui-ready",
     "freshness": "session-observed",
     "note": "Signed-in browser or desktop session observed; no capture has run yet.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "gemini",
@@ -24,7 +24,7 @@
     "status": "session-reported",
     "freshness": "session-reported",
     "note": "User reports a signed-in browser session; verify at capture time.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "perplexity",
@@ -33,7 +33,7 @@
     "status": "ui-ready",
     "freshness": "session-observed",
     "note": "Signed-in browser or desktop session observed; no capture has run yet.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "grok",
@@ -42,7 +42,7 @@
     "status": "session-reported",
     "freshness": "session-reported",
     "note": "User reports a signed-in browser session; verify at capture time.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "deepseek",
@@ -51,7 +51,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "kimi",
@@ -60,7 +60,7 @@
     "status": "ui-limited",
     "freshness": "quota-exhausted",
     "note": "Signed-in session observed; source quota is exhausted until 2026-08-02.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "github",
@@ -69,7 +69,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "public-web",
@@ -78,7 +78,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "workspace",
@@ -87,7 +87,7 @@
     "status": "available",
     "freshness": "available",
     "note": "Surface is available for a mission-scoped read.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "calendar",
@@ -96,7 +96,7 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   },
   {
     "id": "mail",
@@ -105,6 +105,6 @@
     "status": "not-connected",
     "freshness": "unknown",
     "note": "Awaiting account, credential, or connector setup.",
-    "checked_at": "2026-08-23T13:44:47Z"
+    "checked_at": "2026-08-24T14:01:13Z"
   }
 ]
