@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_status": "heartbeat-only",
-  "last_run": "2026-09-09T17:08:59Z",
+  "last_run": "2026-09-10T16:59:24Z",
   "world_data_updated": false,
   "live_sources_checked": 0,
   "message": "Scheduler is healthy; no world data was collected.",
